@@ -1,0 +1,25 @@
+<div class="row">
+	<div class="col-lg-12">
+		<form role="form" ng-submit="onFormSubmit()">
+			<div class="row">
+				<div class="col-lg-10">
+					<div class="form-group">
+						<div class="input-group">
+							<label class="sr-only" for="todo-input">{{::lang.todo}}</label>
+
+							<div class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></div>
+							<input type="text" class="form-control"
+								   name="todoText"
+								   ng-model="todoItem.text"
+								   id="todo-input"
+								   placeholder="{{::lang['enter_your_todo']}}">
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-2">
+					<button type="submit" class="btn btn-primary">{{::lang.save}}</button>
+				</div>
+			</div>
+		</form>
+	</div>
+</div>

@@ -1,0 +1,20 @@
+#todos-list-styles .delete-button-row > div{
+ margin: 0 0 15px 0;
+}
+
+#todos-list-styles .item-style {
+	font-family: cursive;
+	font-size: 34px;
+}
+
+#todos-list-styles .item-checkbox {
+	margin-top: 21px;
+}
+
+#todos-list-styles .item-button-delete{
+	margin: 11px 0 0;
+}
+
+.item-done{
+	text-decoration: line-through;
+}

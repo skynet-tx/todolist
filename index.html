@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html ng-app="todo">
+<head lang="en">
+	<meta charset="UTF-8">
+	<title>Todo List</title>
+	<link href="resources/thirdparty/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+	<link href="resources/thirdparty/css/bootstrap-theme.min.css" type="text/css" rel="stylesheet">
+	<link href="resources/styles.css" type="text/css" rel="stylesheet">
+
+	<script src="js/core/angular.min.js"></script>
+	<script src="js/core/angular-route.min.js"></script>
+	<script src="js/core/angular-resource.min.js"></script>
+	<script src="js/core/angular-animate.min.js"></script>
+	<script src="js/core/angular-loader.min.js"></script>
+	<script src="js/core/angular-sanitize.min.js"></script>
+	<script src="js/core/angular-touch.min.js"></script>
+	<script src="js/thirdparty/json3.min.js"></script>
+	<!--constants-->
+	<script src="js/app/config.js"></script>
+
+	<!--languages-->
+	<script src="js/lang/En_en.js"></script>
+
+	<!--main scripts-->
+	<script src="js/app/app.js"></script>
+	<script src="js/app/route-config.js"></script>
+
+	<!--services-->
+	<script src="js/app/services/localStorageService.js"></script>
+
+	<!--application-->
+	<script src="js/app/home_ctrl/home_ctrl.js"></script>
+	<script src="js/app/directives/add_new_dir.js"></script>
+</head>
+<body>
+<div class="container" data-ng-view></div>
+</body>
+</html>
